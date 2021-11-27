@@ -5,14 +5,14 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/components/no_internet.dart';
 import 'package:socio_survey/components/textfield_container.dart';
 import 'package:socio_survey/json%20data/tourism_data.dart';
+import 'package:socio_survey/models/TourismQuestion.dart';
 import 'package:socio_survey/pages/environmental%20related%20page/environmental_related_page.dart';
 import 'package:socio_survey/pages/final%20page/final_page.dart';
 import 'package:socio_survey/pages/housing%20page/housing_page.dart';
-import 'package:socio_survey/service/TourismQuestion.dart';
 import 'package:http/http.dart' as http;
 
 class TourismPage extends StatefulWidget {

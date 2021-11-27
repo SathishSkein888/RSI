@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:random_string/random_string.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:socio_survey/components/completed_page.dart';
+import 'package:socio_survey/pages/Landing%20page/completed_page.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
 import 'package:socio_survey/components/get_data.dart';

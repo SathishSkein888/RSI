@@ -7,7 +7,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/components/no_internet.dart';
 
 import 'data_view_screen.dart';

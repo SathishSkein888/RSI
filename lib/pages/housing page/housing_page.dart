@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/json%20data/housing_data.dart';
-import 'package:socio_survey/service/HousingQuestion.dart';
 import 'package:http/http.dart' as http;
+import 'package:socio_survey/models/HousingQuestion.dart';
 
 class HousingPage extends StatefulWidget {
   HousingPage({Key key}) : super(key: key);

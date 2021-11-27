@@ -5,7 +5,7 @@ import 'package:socio_survey/components/connectivity_provider.dart';
 import 'package:socio_survey/pages/cultural%20and%20heritage%20page/cultural_and_heritage.dart';
 import 'package:socio_survey/pages/final%20page/final_page.dart';
 import 'package:socio_survey/pages/user%20details%20page/user_details_page.dart';
-import 'components/cities_page.dart';
+import 'pages/Landing page/cities_page.dart';
 import 'pages/Coastal Page/coastal_page.dart';
 import 'pages/Economy and Industries page/economy_and_indu_page.dart';
 import 'pages/Landing page/landing_page.dart';

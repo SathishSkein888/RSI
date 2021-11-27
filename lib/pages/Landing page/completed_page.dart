@@ -8,7 +8,7 @@ import 'package:socio_survey/components/get_data.dart';
 import 'package:http/http.dart' as http;
 
 import 'completed_Sub_page.dart';
-import 'dbHelper.dart';
+import '../../dbHelper/dbHelper.dart';
 
 class CompletedTaskPage extends StatefulWidget {
   CompletedTaskPage({Key key}) : super(key: key);

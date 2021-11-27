@@ -13,13 +13,14 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/components/no_internet.dart';
 import 'package:socio_survey/json%20data/household_data.dart';
+import 'package:socio_survey/models/HouseHoldQuestion.dart';
 import 'package:socio_survey/pages/householdprofilepage/postdata_household.dart';
 import 'package:socio_survey/pages/housing%20page/housing_page.dart';
 import 'package:socio_survey/pages/user%20details%20page/userPost.dart';
-import 'package:socio_survey/service/HouseHoldQuestion.dart';
+
 import 'package:http/http.dart' as http;
 
 class HouseHoldPofilePage extends StatefulWidget {

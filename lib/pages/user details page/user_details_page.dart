@@ -10,7 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:random_string/random_string.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/components/no_internet.dart';
 import 'package:socio_survey/components/textfield_container.dart';
 import 'package:socio_survey/components/userFields.dart';

@@ -9,10 +9,10 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/json%20data/culturalHeritage_data.dart';
+import 'package:socio_survey/models/CulturalQuestion.dart';
 import 'package:socio_survey/pages/Tourism%20Page/tourism_page.dart';
-import 'package:socio_survey/service/CulturalQuestion.dart';
 
 class CulturalAndHeritage extends StatefulWidget {
   CulturalAndHeritage({Key key}) : super(key: key);

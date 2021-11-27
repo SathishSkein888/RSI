@@ -8,13 +8,14 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:socio_survey/components/connectivity_check.dart';
 import 'package:socio_survey/components/connectivity_provider.dart';
-import 'package:socio_survey/components/dbHelper.dart';
+import 'package:socio_survey/dbHelper/dbHelper.dart';
 import 'package:socio_survey/components/no_internet.dart';
 import 'package:socio_survey/components/textfield_container.dart';
 import 'package:socio_survey/json%20data/economy_data.dart';
+import 'package:socio_survey/models/EconomyQuestions.dart';
 import 'package:socio_survey/pages/Transportation%20page/transportation_page.dart';
 import 'package:socio_survey/pages/housing%20page/housing_page.dart';
-import 'package:socio_survey/service/EconomyQuestions.dart';
+
 import 'package:http/http.dart' as http;
 
 class EconomyAndIndustriesPage extends StatefulWidget {

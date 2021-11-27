@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'package:socio_survey/main.dart';
 
-import 'survey_id_model.dart';
+import '../../components/survey_id_model.dart';
 
 class SubPage extends StatefulWidget {
   final String index;
